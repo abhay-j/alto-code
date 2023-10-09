@@ -25,7 +25,7 @@ class BST:
         return self
 
     def contains(self, value):
-        # Write your code here.
+      
         currentNode = self
         while currentNode is not None:
             if value < currentNode.value:
